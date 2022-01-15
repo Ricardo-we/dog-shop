@@ -1,7 +1,7 @@
 {
   "name": "ecommerce-test",
   "version": "0.1.0",
-  "homepage": "http://ricardo-we.github.io/dog-shop", 
+  "homepage": "https://ricardo-we.github.io/dog-shop/", 
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",

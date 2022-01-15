@@ -18,7 +18,7 @@ function App() {
 			  <Route path="admin/users" element={<UsersAdmin/>}/>
 			  <Route path="admin/products" element={<ProductsAdmin/>}/>
 			  {/* USER UI */}
-			  <Route path="/" element={<Home/>}/>
+			  <Route path="*" element={<Home/>}/>
 			  <Route path="/shop" element={<Shop/>}/>
 			  <Route path="/dogs-info" element={<DogsInfo/>}/>
 			  <Route path="/product-detail/:id" element={<ProductDetail/>}/>
