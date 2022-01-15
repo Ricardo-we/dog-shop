@@ -11,7 +11,7 @@ import Cart from './views/user-ui/shop/cart';
 
 function App() {
   return (
-      <Router basename={`/${process.env.PUBLIC_URL}`}>
+      <Router>
 		  <Routes>
 			  {/* ADMIN ROUTES */}
 			  <Route path="admin" element={<AdminLogin/>}/>
