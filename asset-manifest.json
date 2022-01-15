@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/dog-shop/static/css/main.cbae37a8.css",
+    "main.js": "/dog-shop/static/js/main.f523dc2e.js",
+    "static/js/787.02916652.chunk.js": "/dog-shop/static/js/787.02916652.chunk.js",
+    "static/media/dog3.jpg": "/dog-shop/static/media/dog3.2b794e0021801b33b8ff.jpg",
+    "static/media/dog1.jpg": "/dog-shop/static/media/dog1.7fd01c32f4a4ff836f43.jpg",
+    "static/media/dog2.jpg": "/dog-shop/static/media/dog2.ccbf45d27118c4ce6c60.jpg",
+    "static/media/dog5.jpg": "/dog-shop/static/media/dog5.5daa13c0515e385fdf66.jpg",
+    "static/media/dog4.jpg": "/dog-shop/static/media/dog4.276ddaf05e1a6a549cd6.jpg",
+    "static/media/dog6.jpg": "/dog-shop/static/media/dog6.2fa968011e65bc795480.jpg",
+    "index.html": "/dog-shop/index.html",
+    "main.cbae37a8.css.map": "/dog-shop/static/css/main.cbae37a8.css.map",
+    "main.f523dc2e.js.map": "/dog-shop/static/js/main.f523dc2e.js.map",
+    "787.02916652.chunk.js.map": "/dog-shop/static/js/787.02916652.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbae37a8.css",
+    "static/js/main.f523dc2e.js"
+  ]
+}
