@@ -60,7 +60,6 @@ function Home() {
                     <div className="col"></div>
                 </div>
             </div>
-            <Link to="admin"></Link>
             <Footer/>
         </div> 
     );

@@ -15,6 +15,9 @@ function Footer() {
             <a href="" className="link-icon">
                 <i className="fab fa-twitter"></i>
             </a>
+            <Link to="admin">
+                <i class="fas fa-users-cog"></i>
+            </Link>
         </footer> 
     );
 }
