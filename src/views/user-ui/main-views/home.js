@@ -8,7 +8,6 @@ import dog6 from '../../../img/dog6.jpg';
 import '../../../required-css/home.css'
 import './../../../required-css/index.css';
 import Footer from "../base-components/footer";
-import { Link } from "react-router-dom";
 
 function Home() {
     return (
