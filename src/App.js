@@ -11,7 +11,7 @@ import Cart from './views/user-ui/shop/cart';
 
 function App() {
   return (
-      <Router basename='/dog-shop'>
+      <Router basename='dog-shop'>
 		  <Routes>
 			  {/* ADMIN ROUTES */}
 			  <Route path="admin" element={<AdminLogin/>}/>
