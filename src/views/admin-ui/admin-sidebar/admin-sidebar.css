@@ -1,0 +1,42 @@
+.main-container {
+    width: 230px;
+    height: 100vh;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: fixed;
+    left: -230px;
+    margin-left: 0;
+    transition: 500ms linear;
+}
+
+.active {
+    left: 0;
+}
+
+.nav-open-button {
+    position: fixed;
+    left: 250px;
+    transition: 500ms linear ;
+}
+
+.nav-close-button {
+    position: fixed;
+    left: 0px;
+    transition: 500ms linear ;
+}
+
+.nav-buttons {
+    color: white;
+    text-align: left;
+    width: 100%;
+    padding: 30px;
+}
+
+.nav-items {
+    margin-top: 30px;
+    width: 150px;
+    height: auto;
+}

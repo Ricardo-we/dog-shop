@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootswatch/dist/lux/bootstrap.min.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import AdminLogin from './views/admin-ui/admin-login';
+import UsersAdmin from './views/admin-ui/users-admin/users-admin';
+import ProductsAdmin from './views/admin-ui/products-admin/products-admin';
+import Home from './views/user-ui/main-views/home';
+import DogsInfo from './views/user-ui/main-views/dogs-info';
+import Shop from './views/user-ui/shop/shop';
+import ProductDetail from './views/user-ui/shop/product-details';
+import Cart from './views/user-ui/shop/cart';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+		  <Routes>
+			  {/* ADMIN ROUTES */}
+			  <Route path="admin" element={<AdminLogin/>}/>
+			  <Route path="admin/users" element={<UsersAdmin/>}/>
+			  <Route path="admin/products" element={<ProductsAdmin/>}/>
+			  {/* USER UI */}
+			  <Route path="/" element={<Home/>}/>
+			  <Route path="/shop" element={<Shop/>}/>
+			  <Route path="/dogs-info" element={<DogsInfo/>}/>
+			  <Route path="/product-detail/:id" element={<ProductDetail/>}/>
+			  <Route path="/cart" element={<Cart/>}/>
+		  </Routes>
+	  </Router>
   );
 }
+
+export const APIURL = 'http://localhost/ecommerce-test-api/urls'
 
 export default App;

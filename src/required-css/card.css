@@ -1,0 +1,27 @@
+.welcome-card {
+    position: relative;
+}
+
+.arrow-btn {
+    transition: 600ms ease;
+    background-color: transparent;
+    border: none;
+    width: 60px;
+    height: 40px;
+}
+
+.arrow-btn-open{
+    transform: rotate(180deg);
+}
+
+.show-more {
+    position: relative;
+    height: 0px;
+    transition: 600ms ease;
+    z-index: -1;
+}
+
+.show-more-open {
+    height: 120px;
+    z-index: 1;
+}
