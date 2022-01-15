@@ -1,5 +1,5 @@
 import 'bootswatch/dist/lux/bootstrap.min.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import AdminLogin from './views/admin-ui/admin-login';
 import UsersAdmin from './views/admin-ui/users-admin/users-admin';
 import ProductsAdmin from './views/admin-ui/products-admin/products-admin';
