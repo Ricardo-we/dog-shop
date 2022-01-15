@@ -23,7 +23,7 @@ function AdminLogin() {
             sessionStorage.setItem('password', finalResponse.password);
         }
         let sessionUsername = sessionStorage.getItem('username'); 
-        if(sessionUsername) window.location.href = "/admin/users";
+        if(sessionUsername) window.location.href = "#/admin/users";
     }
 
     return ( 
