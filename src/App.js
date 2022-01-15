@@ -1,5 +1,5 @@
 import 'bootswatch/dist/lux/bootstrap.min.css';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AdminLogin from './views/admin-ui/admin-login';
 import UsersAdmin from './views/admin-ui/users-admin/users-admin';
 import ProductsAdmin from './views/admin-ui/products-admin/products-admin';
@@ -11,7 +11,7 @@ import Cart from './views/user-ui/shop/cart';
 
 function App() {
   return (
-      <Router basename='dog-shop'>
+      <Router basename={process.env.PUBLIC_URL}>
 		  <Routes>
 			  {/* ADMIN ROUTES */}
 			  <Route path="admin" element={<AdminLogin/>}/>
